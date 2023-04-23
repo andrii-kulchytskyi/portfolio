@@ -1,4 +1,7 @@
-.header{
+.header {
     background-color: bisque;
     height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
 }
