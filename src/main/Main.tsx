@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../main/Main.module.css';
 import stylesContainer from '../common/styles/Container.module.css';
+import Skills from "../skills/Skills";
 
 
 const Main = () => {
@@ -13,6 +14,7 @@ const Main = () => {
                 <p>A React Developer</p>
             </div>
             <div className={styles.photo}></div>
+            <Skills/>
         </div>
     );
 };
